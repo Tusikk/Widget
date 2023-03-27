@@ -1,0 +1,186 @@
+@font-face {
+    font-family: Gilroy;
+    src: local("Gilroy-Black.woff"),
+         local("Gilroy-Black.woff");
+    font-weight: bold;
+  }
+
+html {
+    font-family: font-face;
+    font-size: 16px;
+    color: #000000;
+    background-color: blue;
+
+}
+
+a {
+    text-decoration: none;
+    color: #532B94;
+
+}
+
+.widgetchat {
+    width: 560px;
+    height: 800px;
+    border-radius: 16px;
+    overflow: hidden;
+
+}
+
+.header {
+    height: 96px;
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    justify-content: space-between;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.08);
+    padding: 0 29px 0 24px;
+
+}
+
+.icon {
+    position: relative;
+
+}
+
+.shopicon {
+    border-radius: 360px;
+    overflow: hidden;
+    width: 48px;
+    height: 48px;
+    margin-right: 16px;
+}
+
+.left img {
+    width: 48px;
+    height: 48px;
+
+}
+
+.left {
+    display: flex;
+    align-items: center;
+
+
+}
+
+.status {
+    border-radius: 360px;
+    width: 12px;
+    height: 12px;
+    background-color: #7CEBD7;
+    position: absolute;
+    right: 0;
+}
+
+.left a {
+    margin-left: 16px ;
+    color: #A5A5A5;
+}
+
+.right img {
+    width: 18px;
+    height: 18px;
+    padding: 5px;
+}
+
+.close {
+    overflow: hidden;
+    width: 24px;
+    height: 24px;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+
+}
+
+.right a {
+    font-size: 24px;
+    margin-right: 21px;
+    font-weight: bold;
+    color: #532B94;
+    margin-left: 21px;
+
+}
+
+.chat {
+    position: relative;
+    display: flex;
+    background-color: #EFF3F8;
+    height: 704px;
+    align-items: flex-end;
+    box-sizing: border-box;
+    padding-bottom: 90px;
+}
+
+.chatwindow {
+    border-radius: 0 16px 16px 16px;
+    background-color: #ffffff;
+    width: 270px;
+    height: 70px;
+    margin: 0 0 31px 24px;
+
+}
+
+.chatwindow p {
+    margin: 16px;
+    font-size: 16px;
+
+}
+
+.message {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 512px;
+    height: 64px;
+    background-color: #ffffff;
+    border-radius: 16px;
+    margin: 31px 24px 24px 24px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.08);
+    bottom: 12px;
+
+}
+
+.other {
+    display: flex;
+    align-items: center;
+
+    
+}
+
+.other button {
+    outline: none;
+    border: none;
+    background-color: #ffffff;
+    cursor: pointer;
+    
+
+}
+
+.other button:last-child {
+    margin: 0 24px 0 30px;
+}
+
+.messageentry input {
+    width: 300px;
+    height: 56px;
+    border-radius: 16px;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    padding-left: 24px;
+
+}
+
+.close button {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+
