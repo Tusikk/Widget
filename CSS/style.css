@@ -1,13 +1,6 @@
-@font-face {
-    font-family: "Gilroy";
-    src: url(../Widget/fontGilroy/Gilroy-Black.ttf) format("truetype"),
-    url(Gilroy-Black.woff) format("woff"),
-    url(Gilroy-Black.woff2) format("woff2"),
-    url(Gilroy-Black.otf) format("opentype")
-}
 
 html {
-    font-family: 'Gilroy' ;
+    font-family: 'Gilroy';
     font-size: 16px;
     color: #000000;
     background-color: blue;
@@ -17,7 +10,16 @@ html {
 a {
     text-decoration: none;
     color: #532B94;
+    font-family: "Gilroy-Black";
 
+}
+
+button {
+    outline: none;
+    border: none;
+    background-color: #ffffff;
+    cursor: pointer;
+    padding: 0;
 }
 
 .widgetchat {
@@ -80,15 +82,13 @@ a {
 }
 
 .right img {
-    width: 18px;
-    height: 18px;
-    padding: 5px;
+    width: 22px;
+    height: 22px;
+
 }
 
 .close {
-    overflow: hidden;
-    width: 24px;
-    height: 24px;
+    align-items: end;
 }
 
 .right {
@@ -100,7 +100,6 @@ a {
 .right a {
     font-size: 24px;
     margin-right: 21px;
-    font-weight: bold;
     color: #532B94;
     margin-left: 21px;
 
@@ -128,6 +127,7 @@ a {
 .chatwindow p {
     margin: 16px;
     font-size: 16px;
+    font-family: "Gilroy-Black";
 
 }
 
@@ -153,15 +153,6 @@ a {
     
 }
 
-.other button {
-    outline: none;
-    border: none;
-    background-color: #ffffff;
-    cursor: pointer;
-    
-
-}
-
 .other button:last-child {
     margin: 0 24px 0 30px;
 }
@@ -177,11 +168,23 @@ a {
 
 }
 
-.close button {
-    background-color: transparent;
-    border: none;
-    padding: 0;
-    cursor: pointer;
-}
 
+
+
+
+
+@font-face {
+    font-family: "Gilroy";
+    src: url(../fontGilroy/Gilroy-Bold.ttf) format("truetype"),
+    url(Gilroy-Bold.woff) format("woff"),
+    url(Gilroy-Bold.woff2) format("woff2"),
+    url(Gilroy-Bold.otf) format("opentype")
+}
+@font-face {
+    font-family: "Gilroy";
+    src: url(../fontGilroy/Gilroy-Black.ttf) format("truetype"),
+    url(Gilroy-Black.woff) format("woff"),
+    url(Gilroy-Black.woff2) format("woff2"),
+    url(Gilroy-Black.otf) format("opentype")
+}
 
